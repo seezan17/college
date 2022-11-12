@@ -8,10 +8,10 @@ class control_class
 
 	public function __construct()
 	{ 
-      $host_name='sql210.epizy.com';
-		$user_name='epiz_32142951';
-		$password='5FvX5kMSikJPii';
-		$db_name='epiz_32142951_cms_swastik';
+     		$host_name='localhost';
+		$user_name='root';
+		$password='';
+		$db_name='college';
 
 		try{
 			$connection=new PDO("mysql:host={$host_name}; dbname={$db_name}", $user_name,  $password);
